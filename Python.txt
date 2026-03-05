@@ -1,0 +1,4 @@
+print();Escreve um texto na tela
+input();Pede uma informacao ao usuario
+while True:;Cria um looping infinito de repeticao de tudo que for inserido dentro dele
+for x in y:;Passa por cada um dos elementos contidos em y

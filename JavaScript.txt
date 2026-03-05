@@ -1,0 +1,91 @@
+document.querySelect('').innerText = '';Usando o nome do objeto, ele consegue alterar o texto escrito nele
+alert('');Exibe uma caixa de texto com uma mensagem na tela do navegador
+<head></head>;Guarda as configuracoes do site
+<body></body>;O que aparece no corpo do site
+<h1></h1>;Titulo
+<p></p>;Paragrafo
+<style></style>;Permite dentro dele definir aspectos como cor do fundo, cor da fonte, etc
+background-color:;Cor de fundo
+color:;Cor da fonte
+font:;Pode definir o tipo, tamanho(pt) e a fonte do texto, respectivamente
+window.alert('');Cria uma janela de aviso
+window.confirm('');Cria uma janela de confirmacao (sim ou nao)
+window.prompt('');Cria uma janela em que e possivel se inserir texto
+typeof;Verificar o tipo de uma variavel
+= null;Apagar o tipo da variavel
+document.body.style.background = '';Permite alterar a cor de um background
++;Sinal de concatenacao e de adicao aritmetica
+Number.parseInt();Converter variavel pra numero inteiro
+Number.parseFloat();Converter variavel pra numero real
+Number();Converter variavel pra numero
+String() / .toString();Converter variavel pra string
+`${}`;Place holder
+.length;Retorna o numero de caracteres da variavel
+.toUpperCase();Converte pra letras maiusculas
+.toLowerCase();Converte pra letras minusculas
+document.write('');Escreve no corpo do site
+<strong></strong>;Deixa o texto escrito em negrito
+<br/>;Quebra de linha
+.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'});Formatar um valor numerico como dinheiro brasileiro
+.replace('x', 'y');Substituir todos os x por y
+.toFixed(x);Formatar um numero com uma quantidade x de caracteres decimais
+x++ / ++x;Adiciona +1 ao numero x
+x-- / --x;Retira -1 do numero x
+==;Valores iguais, mas que podem ser de tipos diferentes
+===;Valores iguais de tipos iguais
+!;Operador logico de negacao
+&&;Operador logico de conjuncao
+||;Operador logico de disjuncao
+x?y:z;Teste logico de x, se o resultado for true, teremos y, se false, teremos z
+window.document.write('');Permite escrever no corpo do site usando JS com o DOM
+.getElementById();Acessar uma tag HTML pelo seu id
+<tag id=''>;Definir uma id para uma tag HTML
+window.document.querySelector('#');Permite acessar uma tag HTML atraves da sua id e guarda-la em uma variavel
+.style.color = '';Alterar a cor da fonte de uma variavel
+.style.backgroundColor = '';Alterar a cor de fundo
+.innerText / .innerHTML;Permite repetir o texto de uma tag HTML ou altera-lo
+window.document.body;Permite acessar o corpo do site por uma variavel e modifica-lo
+width:;Define a quantidade de pixels da largura
+height:;Define a quantidade de pixels da altura
+line-height:;Define a altura da linha de texto
+text-align: center;Centraliza o texto
+margin-top:;Altera a distancia do texto em qualquer uma das direcoes: top/left/right/bottom
+function x() {};Define a funcao x
+<tag id='x' y='z()'>;Tag com a id x que utiliza o metodo y disparado pela funcao z criada
+input:;Cria um input pra varios tipos de itens diferentes
+<input type='button' value='x' y='z()'> ;Botao x que retorna o metodo y disparado pela funcao z criada
+Number(x.value);Transforma o valor numerico contido em x em um numero
+x.addEventListener('y', z) ;Forma de atribuir o metodo y a variavel x pela funcao z criada
+= new Date().getHours();Pegar horario do sistema
+console.log('');Escrever em JS usando o node
+x.innerHTML +=;Adiciona texto sem apagar o texto ja existente
+margin: auto;Centraliza um elemento na tela do site
+= window.document.createElement('img');Criar um elemento imagem atraves de script JS
+x.setAttribute('id', 'y');Definindo a imagem x com o id y
+<input type="radio" name="x" id="y" checked>;Criando um radio ja marcado com nome x e id y
+<label for="x">y</label>;Definindo o texto y do radio com id x
+= window.document.getElementsByName('x');Acessando o radio de nome x
+x[0];Primeiro elemnto da variavel de radio com nome x
+x[0].checked;Em caso do elemento estar marcado
+x.setAttribute('src', 'y');Definindo a imagem x com o caminho y.png
+x.appendChild(y);Mostrando a imagem y no espaco definido x
+<img id="x" src="y" alt"">;Mostrar uma imagem y.png definida com o id x
+padding: 15px;Definir um distanciamento de 15px entre o painel e o inicio do texto
+border-radius:;Definir um arredondamento das bordas de um painel
+box-shadow: 5px 5px 10px black;Criar uma sombra preta para um painel 
+while (x) {};Estrutura de repeticao com condicao x
+for (x(pv) y(pv) z) {};Estrutura de repeticao que se iniciara com x, tera condicao y e incrementara z
+`\u{x}`;Mostrar emoji de codigo x / Site Uni Emoji Code
+<select name="x" id="y" size="z"></select>;Cria uma caixa pra mostrar opcoes pra selecao
+<option></option>;Cria uma opcao para uma caixa select
+= window.document.createElement('option');Cria uma opcao para ser colocada em uma caixa select
+x.text = '';Define o texto da opcao x criada
+x.appendChild(y);Integra o item y a caixa select presente na variavel x
+x.push(y);Adiciona o elemento y ao final do vetor x
+x.length;Retorna a quantidade de elementos no vetor x
+x.sort();Organiza o vetor x em ordem crescente
+for (x in y) {};Cria um contador x que vai ate a range do vetor y
+x.indexOf(y);Retorna a posicao do elemento y no vetor x
+let x = {y:z};Declaracao do objeto x com o indice y definido como elemento z
+let x = {y:z, a(b) {this.y =}};Objeto x com a funcao a que modifica o seu proprio atributo y
+console.log(x.y);Mostrar o atributo localizado no indice y do objeto x
