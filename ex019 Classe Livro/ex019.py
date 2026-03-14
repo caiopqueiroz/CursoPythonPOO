@@ -27,5 +27,7 @@ class Livro:
 
 
 livro1 = Livro('A Volta dos que Não Foram', 100)
-livro1.passarPaginas(18)
+livro1.passarPaginas(13)
+livro2 = Livro('Geometria Analítica e Álgebra Linear', 658)
+
 
